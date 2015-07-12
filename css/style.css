@@ -1,0 +1,297 @@
+.ptp-5-plans .ptp-plan {width:19.5%; float:left;}
+.ptp-5-plans .ptp-plan-0 {margin-right:0.62%;}
+.ptp-5-plans .ptp-plan-2 {margin-left:0.62%;}
+.ptp-5-plans .ptp-plan-3 {margin-left:0.62%;}
+.ptp-5-plans .ptp-plan-4 {margin-left:0.62%;}
+
+.ptp-4-plans .ptp-plan {width:24.5%; float:left;}
+.ptp-4-plans .ptp-plan-0 {margin-right:0.66%;}
+.ptp-4-plans .ptp-plan-2 {margin-left:0.66%;}
+.ptp-4-plans .ptp-plan-3 {margin-left:0.66%;}
+
+.ptp-3-plans .ptp-plan {width:32%; float:left;}
+.ptp-3-plans .ptp-plan-0 {margin-right:1.9%;}
+.ptp-3-plans .ptp-plan-2 {margin-left:1.9%;}
+
+.ptp-2-plans .ptp-plan {width:49%; float:left;}
+.ptp-2-plans .ptp-plan-0 {margin-right:2%;}
+
+.ptp-plan .ptp-title img {
+	margin-right:10px;
+	position:relative;
+	vertical-align: middle;
+}
+.ptp-plan .ptp-title {
+	border-bottom:#111 solid 1px;
+	background:#222;
+	padding:14px 18px;
+	font-size:26px;
+	color:white;
+	line-height:48px;
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.ptp-sm-title .ptp-plan .ptp-title {font-size:20px;}
+.ptp-xsm-title .ptp-plan .ptp-title {font-size:17px;}
+
+.ptp-4-plans .ptp-plan .ptp-title {font-size:17px;}
+.ptp-4-plans .ptp-sm-title .ptp-plan .ptp-title {font-size:15px;}
+.ptp-4-plans .ptp-xsm-title .ptp-plan .ptp-title {font-size:13px;}
+
+.ptp-5-plans .ptp-plan .ptp-title {font-size:15px;}
+.ptp-5-plans .ptp-sm-title .ptp-plan .ptp-title {font-size:13px;}
+.ptp-5-plans .ptp-xsm-title .ptp-plan .ptp-title {font-size:12px;}
+
+.ptp-plan .ptp-head .ptp-price .ptp-currency {
+	position:relative;
+	top:-44px;
+	left:-10px;
+	font-size:35px;
+	line-height:0px;
+}
+
+.ptp-4-plans .ptp-plan .ptp-head .ptp-price .ptp-currency {top:-36px;}
+.ptp-5-plans .ptp-plan .ptp-head .ptp-price .ptp-currency {top:-26px;}
+
+.ptp-sm-price .ptp-plan .ptp-head .ptp-price .ptp-currency {font-size:30px; top:-44px;left:-4px;}
+.ptp-xsm-price .ptp-plan .ptp-head .ptp-price .ptp-currency {font-size:25px; top:-30px;left:-4px;}
+.ptp-xxsm-price .ptp-plan .ptp-head .ptp-price .ptp-currency {font-size:21px; top:-14px; left:-4px;}
+
+.ptp-plan .ptp-head {
+	border-top:#222 solid 2px;
+	background: #333333; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #333333 0%, #1c1c1c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#333333), color-stop(100%,#1c1c1c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #333333 0%,#1c1c1c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, #333333 0%,#1c1c1c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, #333333 0%,#1c1c1c 100%); /* IE10+ */
+	background: linear-gradient(45deg, #333333 0%,#1c1c1c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#1c1c1c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.ptp-plan .ptp-head .ptp-price {
+	padding:6px 10px;
+	font-size:74px;
+	line-height:100px;
+	font-weight:300;
+	text-align:center;
+	color:white;
+	text-shadow: 1px 2px 7px rgba(0, 0, 0, 0.6);
+}
+
+.ptp-sm-price .ptp-plan .ptp-head .ptp-price {font-size:62px;}
+.ptp-xsm-price .ptp-plan .ptp-head .ptp-price {font-size:56px;}
+.ptp-xxsm-price .ptp-plan .ptp-head .ptp-price {font-size:38px;}
+
+.ptp-4-plans .ptp-plan .ptp-head .ptp-price {font-size:69px; line-height:80px;}
+.ptp-4-plans .ptp-sm-price .ptp-plan .ptp-head .ptp-price {font-size:53px; line-height:65px;}
+.ptp-4-plans .ptp-xsm-price .ptp-plan .ptp-head .ptp-price {font-size:47px; line-height:64px;}
+.ptp-4-plans .ptp-xxsm-price .ptp-plan .ptp-head .ptp-price {font-size:31px; line-height:60px;}
+
+.ptp-5-plans .ptp-plan .ptp-head .ptp-price {font-size:59px; line-height:80px;}
+.ptp-5-plans .ptp-sm-price .ptp-plan .ptp-head .ptp-price {font-size:44px; line-height:60px;}
+.ptp-5-plans .ptp-xsm-price .ptp-plan .ptp-head .ptp-price {font-size:37px; line-height:53px;}
+.ptp-5-plans .ptp-xxsm-price .ptp-plan .ptp-head .ptp-price {font-size:24px; line-height:50px;}
+
+.ptp-plan .ptp-head .ptp-recurrence {
+	font-size:13px;
+	font-weight:300;
+	line-height:18px;
+	padding:10px 40px 20px;
+	color:lightgrey;
+	text-align:center;
+}
+
+.ptp-sm-recurrence .ptp-plan .ptp-head .ptp-recurrence {font-size:11px; padding:20px 40px 4px;}
+
+.ptp-plan .ptp-head .ptp-subtitle {
+	font-size:16px;
+	line-height:20px;
+	font-weight:300;
+	text-align:center;
+	padding:10px 30px 20px;
+}
+
+.ptp-sm-subtitle .ptp-plan .ptp-head .ptp-subtitle {font-size:14px;}
+.ptp-xsm-subtitle .ptp-plan .ptp-head .ptp-subtitle {font-size:12px;}
+
+.ptp-4-plans  .ptp-plan .ptp-head .ptp-subtitle {font-size:16px; line-height:18px; padding:10px 10px 20px;}
+.ptp-4-plans .ptp-sm-subtitle .ptp-plan .ptp-head .ptp-subtitle {font-size:14px; line-height:17px;}
+.ptp-4-plans .ptp-xsm-subtitle .ptp-plan .ptp-head .ptp-subtitle {font-size:13px; line-height:16px;}
+
+.ptp-5-plans .ptp-plan .ptp-head .ptp-subtitle {font-size:15px; line-height:18px; padding:10px 10px 20px;}
+.ptp-5-plans .ptp-sm-subtitle .ptp-plan .ptp-head .ptp-subtitle {font-size:13px; line-height:17px;}
+.ptp-5-plans .ptp-xsm-subtitle .ptp-plan .ptp-head .ptp-subtitle {font-size:12px; line-height:16px;}
+
+.ptp-plan .ptp-head .ptp-description {
+	font-size:14px;
+	line-height:20px;
+	padding:0px 20px 30px;
+	font-weight:300;
+	text-align:center;
+	color:grey;
+}
+
+.ptp-sm-description .ptp-plan .ptp-head .ptp-description {font-size:12px;}
+
+.ptp-4-plans  .ptp-plan .ptp-head .ptp-description {font-size:13px; line-height:18px; }
+.ptp-4-plans .ptp-sm-description .ptp-plan .ptp-head .ptp-description {font-size:12px; line-height:17px;}
+
+.ptp-5-plans .ptp-plan .ptp-head .ptp-description {font-size:12px; line-height:18px;}
+.ptp-5-plans .ptp-sm-description .ptp-plan .ptp-head .ptp-description {font-size:11px; line-height:17px;}
+
+.ptp-plan .ptp-features {
+	padding:20px;
+	background:whitesmoke;
+	text-align:center;
+}
+
+.ptp-plan .ptp-features .ptp-feature {
+	font-size: 16px;
+	padding:6px 16px;
+	border-bottom: 1px dotted lightgrey;
+}
+.ptp-sm-features .ptp-plan .ptp-features .ptp-feature {font-size: 14px;}
+
+.ptp-4-plans .ptp-plan .ptp-features .ptp-feature {
+	padding:6px 10px;
+	font-size: 14px;
+}
+.ptp-4-plans .ptp-sm-features .ptp-plan .ptp-features .ptp-feature {font-size: 12px;}
+
+.ptp-5-plans .ptp-plan .ptp-features .ptp-feature {
+	padding:6px 10px;
+	font-size: 13px;
+}
+.ptp-5-plans .ptp-sm-features .ptp-plan .ptp-features .ptp-feature {font-size: 11px;}
+
+.ptp-plan .ptp-foot {
+	background: #222;
+	display:block;
+	padding:10px 30px;
+	border-top:whitesmoke solid 2px;
+	-webkit-border-bottom-left-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	text-align:center;
+	color: white;
+	font-size: 24px;
+	text-decoration:none;
+	font-weight:300;
+	transition:All 500ms ease;
+	-webkit-transition:All 500ms ease;
+	-moz-transition:All 500ms ease;
+	-o-transition:All 500ms ease;
+}
+.ptp-sm-button .ptp-plan .ptp-foot {font-size: 19px;}
+
+.ptp-4-plans .ptp-plan .ptp-foot {padding:4px 20px; font-size:19px;}
+.ptp-4-plans .ptp-sm-button .ptp-plan .ptp-foot {padding:4px 20px; font-size:17px;}
+
+.ptp-5-plans .ptp-plan .ptp-foot {padding:4px 20px; font-size:17px;}
+.ptp-5-plans .ptp-sm-button .ptp-plan .ptp-foot {font-size:16px;}
+
+.ptp-plan .ptp-foot:hover {opacity:0.8;}
+
+.ptp-plan img {
+	display:inline;
+	margin:0px 10px 0 0;
+	padding:0;
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+	border:none;
+}
+
+.ptp-recommended-plan {position:relative; top:-10px;}
+
+.ptp-recommended-plan .ptp-title {background:#111;}
+
+.ptp-recommended-plan .ptp-head .ptp-price {font-size:98px;}
+.ptp-4-plans .ptp-recommended-plan .ptp-head .ptp-price {font-size:74px;}
+.ptp-5-plans .ptp-recommended-plan .ptp-head .ptp-price {font-size:67px;}
+
+.ptp-sm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:83px;}
+.ptp-4-plans .ptp-sm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:60px;}
+.ptp-5-plans .ptp-sm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:54px;}
+
+.ptp-xsm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:55px;}
+.ptp-4-plans .ptp-xsm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:49px;}
+.ptp-5-plans .ptp-xsm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:41px;}
+
+.ptp-xxsm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:42px;}
+.ptp-4-plans .ptp-xxsm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:34px;}
+.ptp-5-plans .ptp-xxsm-price .ptp-recommended-plan .ptp-head .ptp-price {font-size:26px;}
+
+.ptp-recommended-plan .ptp-head {
+background: #1e1e1e; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e1e1e 0%, #191919 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#1e1e1e), color-stop(100%,#191919)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, #1e1e1e 0%,#191919 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #1e1e1e 0%,#191919 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #1e1e1e 0%,#191919 100%); /* IE10+ */
+background: linear-gradient(45deg, #1e1e1e 0%,#191919 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e1e', endColorstr='#191919',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.ptp-recommended-plan .ptp-foot {font-size:30px; padding:16px 0px;}
+.ptp-sm-button .ptp-recommended-plan .ptp-foot {font-size:25px;}
+
+.ptp-4-plans .ptp-recommended-plan .ptp-foot {font-size:22px; font-weight:300; padding:10px 0px;}
+.ptp-4-plans .ptp-sm-button .ptp-recommended-plan .ptp-foot {font-size:19px; padding:10px 0px;}
+
+.ptp-5-plans .ptp-recommended-plan .ptp-foot {font-size:20px; font-weight:300; padding:10px 0px;}
+.ptp-5-plans .ptp-sm-button .ptp-recommended-plan .ptp-foot {font-size:18px; padding:10px 0px;}
+
+img.ptp-recommended {float:right;}
+
+/* CSS FIXES */
+.entry-content .ptp-plan a {border-bottom:none;}
+.ptp-plan a {border-bottom:none;}
+
+/* TABLETS */
+@media only screen and (min-width: 40em) and (max-width: 64.063em) {
+	.ptp-plan .ptp-head .ptp-price {font-size:64px; margin-top:20px;}
+}
+
+/* MOBILE SCREENS */
+@media only screen and (max-width: 40em) {
+	.ptp-recommended-plan .ptp-foot {font-size:30px; font-weight:300; padding:20px 0px;}
+	.ptp-plan .ptp-head .ptp-price {font-size:74px !important;line-height:100px !important;}
+	.ptp-plan .ptp-title {font-size:26px !important;line-height:48px;}
+	.ptp-plan .ptp-head .ptp-subtitle {
+		font-size:17px !important;
+		line-height:28px;
+		padding:10px 40px 20px;
+	}
+
+	.ptp-plan .ptp-head .ptp-description {
+		font-size:15px !important;
+		line-height:26px !important;
+		padding:0px 40px 30px;
+	}
+
+	.ptp-plan .ptp-features .ptp-feature {padding:6px 16px;font-size:14px !important;}
+
+	.ptp-plan .ptp-foot {
+		padding:10px 40px;
+		text-align:center;
+		font-size: 20px !important;
+	}
+
+	.ptp-plans .ptp-plan {width:96%;}
+	.ptp-plans .ptp-plan {margin:10px 2% 20px !important;}
+
+	.ptp-plan .ptp-head .ptp-price .ptp-currency {top:-36px !important; left:-10px !important; font-size:35px !important;}
+}
+
+/* Original plugin font style */
+#ptp-pricr .ptp-plan-ori .ptp-title, #ptp-pricr .ptp-plan-ori .ptp-head .ptp-recurrence, #ptp-pricr .ptp-plan-ori .ptp-head .ptp-price, #ptp-pricr .ptp-plan-ori .ptp-head .ptp-price .ptp-currency, #ptp-pricr .ptp-plan-ori .ptp-head .ptp-subtitle, #ptp-pricr .ptp-plan-ori .ptp-head .ptp-description, #ptp-pricr .ptp-plan-ori .ptp-features .ptp-feature, #ptp-pricr .ptp-plan-ori .ptp-features .ptp-feature a, #ptp-pricr .ptp-plan-ori .ptp-foot {font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important; font-weight:300 !important;}

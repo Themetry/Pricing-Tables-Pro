@@ -1,0 +1,147 @@
+.de_first {clear:left;}
+.de_input input[type=text] {border:2px #dddddd solid !important; box-shadow: 0 0 0 !important;}
+.de_input textarea {border:2px #dddddd solid !important; box-shadow: 0 0 0 !important;}
+
+.de_text {padding:0 !important; margin:0 !important; border:none !important;}
+.de_text .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_text .cmb-td {width:100% !important;}
+.de_text .cmb-td input {width:100% !important;}
+
+.de_text_side {padding:0 !important; margin:0 !important;border:none !important;}
+.de_text_side .cmb-th {font-size:14px; width:100% !important; color:#333 !important; padding-bottom:5px !important;}
+.de_text_side .cmb-th label {padding-bottom:0 !important}
+.de_text_side .cmb-th label::after {display:none !important;}
+.de_text_side .cmb-td {width:100% !important;}
+.de_text_side .cmb-td input, .de_text_side .cmb-td select {width:100% !important;}
+
+.de_color {padding:0 !important; margin:0 !important; border:none !important;}
+.de_color .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_color .cmb-td {width:100% !important;}
+
+.de_textarea {padding:0 !important; margin:0 !important; border:none !important;}
+.de_textarea .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_textarea .cmb-td {width:100% !important;}
+.de_textarea .cmb-td input {width:100% !important;}
+
+.de_info {padding:0 !important; margin:0 !important; border:none !important;}
+.de_info .cmb-td h5 {font-size:14px; width:100% !important; color:#333 !important;}
+.de_info .cmb-td {width:100% !important;}
+.de_info .cmb-td input {width:100% !important;}
+.de_info .cmb-td p {font-size:12px; color:grey; font-style:normal !important;}
+
+.de_instructions {padding:0 !important; margin:0 !important; border:none !important; padding-top:10px !important;}
+.de_instructions .cmb-td h5 {font-size:18px; width:100% !important; color:#333 !important;}
+.de_instructions .cmb-td {width:100% !important;}
+.de_instructions .cmb-td input {width:100% !important;}
+.de_instructions .cmb-td p {font-size:14px; color:grey; font-style:normal !important;}
+
+.de_info_side .cmb-td a {font-size:15px !important; text-decoration:none !important;}
+.de_info_side .cmb-td a span {position:relative; top:3px;}
+.de_info_side .cmb-td p {padding:0 !important; color: #bbb; font-size:14px !important;}
+
+.de_upload {padding:0 !important; margin:0 !important; border:none !important; padding-top:14px !important;}
+.de_upload .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_upload .cmb-td {width:100% !important;}
+.de_upload .cmb-td input[type=text] {width:80% !important; color:#ccc !important; border:2px whitesmoke solid !important; box-shadow: 0 0 0 !important;}
+.de_upload .cmb-td .button {margin-left:0 !important; width:19% !important; position:relative; top:4px;}
+
+.de_heading {padding:0 !important; margin:0 !important; padding-top:14px !important; border:none !important;}
+.de_heading_side {padding:0 !important; margin:0 !important; padding-top:0px !important; border:none !important;}
+.de_heading .cmb-td h5 {font-style:normal !important; color:10074A2; padding-left:4px; font-size:18px !important; font-weight:400 !important; border-bottom:6px whitesmoke double !important; padding-bottom:5px !important;}
+.de_heading_side .cmb-td h5 {font-style:normal !important; color:10074A2; padding-left:4px; font-size:18px !important; font-weight:400 !important; border-bottom:6px whitesmoke double !important; padding-bottom:5px !important;}
+
+.de_checkbox {padding:0 !important; margin:0 !important; border:none !important;}
+.de_checkbox .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_checkbox .cmb-td {width:100% !important;}
+.de_checkbox .cmb-td label span {font-size:12px; color:grey; font-style:normal !important;}
+
+.de_checkbox_side {padding:0 !important; margin:0 !important; border:none !important;}
+.de_checkbox_side .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_checkbox_side .cmb-td {width:100% !important;}
+.de_checkbox_side .cmb-th {padding-bottom:0 !important}
+.de_checkbox_side .cmb-th label::after {display:none !important;}
+.de_checkbox_side .cmb-td label span {font-size:12px; color:grey; font-style:normal !important;}
+
+.de_fifty {margin-left:1.5% !important; margin-right:1.5% !important; width:47% !important; float:left !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_twentyfive {margin-left:1.5% !important; margin-right:1.5% !important; width:22% !important; float:left !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_seventyfive {margin-left:1.5% !important; margin-right:1.5% !important; width:72% !important; float:left !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_hundred {clear:both; margin-left:1.5% !important; margin-right:1.5% !important; width:97% !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_hundred_side {clear:both; margin-left:1.5% !important; margin-right:1.5% !important; width:97% !important; margin-bottom:20px !important; margin-top:24px !important;}
+
+.de_first {clear:left;}
+.de_input input[type=text] {border:2px #dddddd solid !important; box-shadow: 0 0 0 !important;}
+.de_input textarea {border:2px #dddddd solid !important; box-shadow: 0 0 0 !important;}
+
+.de_text {padding:0 !important; margin:0 !important; border:none !important;}
+.de_text .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_text .cmb-td {width:100% !important;}
+.de_text .cmb-td input {width:100% !important;}
+
+.de_text_side {padding:0 !important; margin:0 !important;border:none !important;}
+.de_text_side .cmb-th {font-size:14px; width:100% !important; color:#333 !important; padding-bottom:5px !important;}
+.de_text_side .cmb-th label {padding-bottom:0 !important}
+.de_text_side .cmb-th label::after {display:none !important;}
+.de_text_side .cmb-td {width:100% !important;}
+.de_text_side .cmb-td input, .de_text_side .cmb-td select {width:100% !important;}
+
+.de_color {padding:0 !important; margin:0 !important; border:none !important;}
+.de_color .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_color .cmb-td {width:100% !important;}
+
+.de_textarea {padding:0 !important; margin:0 !important; border:none !important;}
+.de_textarea .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_textarea .cmb-td {width:100% !important;}
+.de_textarea .cmb-td input {width:100% !important;}
+
+.de_info {padding:0 !important; margin:0 !important; border:none !important;}
+.de_info .cmb-td h5 {font-size:14px; width:100% !important; color:#333 !important;}
+.de_info .cmb-td {width:100% !important;}
+.de_info .cmb-td input {width:100% !important;}
+.de_info .cmb-td p {font-size:12px; color:grey; font-style:normal !important;}
+
+.de_info_side .cmb-td a {font-size:15px !important; text-decoration:none !important;}
+.de_info_side .cmb-td a span {position:relative; top:3px;}
+.de_info_side .cmb-td p {padding:0 !important; color: #bbb; font-size:14px !important;}
+
+.de_upload {padding:0 !important; margin:0 !important; border:none !important; padding-top:14px !important;}
+.de_upload .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_upload .cmb-td {width:100% !important;}
+.de_upload .cmb-td input[type=text] {width:80% !important; color:#ccc !important; border:2px whitesmoke solid !important; box-shadow: 0 0 0 !important;}
+.de_upload .cmb-td .button {margin-left:0 !important; width:19% !important; position:relative; top:4px;}
+
+.de_heading {padding:0 !important; margin:0 !important; padding-top:14px !important; border:none !important;}
+.de_heading_side {padding:0 !important; margin:0 !important; padding-top:0px !important; border:none !important;}
+.de_heading .cmb-td h5 {font-style:normal !important; color:10074A2; padding-left:4px; font-size:18px !important; font-weight:400 !important; border-bottom:6px whitesmoke double !important; padding-bottom:5px !important;}
+.de_heading_side .cmb-td h5 {font-style:normal !important; color:10074A2; padding-left:4px; font-size:18px !important; font-weight:400 !important; border-bottom:6px whitesmoke double !important; padding-bottom:5px !important;}
+
+.de_checkbox {padding:0 !important; margin:0 !important; border:none !important;}
+.de_checkbox .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_checkbox .cmb-td {width:100% !important;}
+.de_checkbox .cmb-td label span {font-size:12px; color:grey; font-style:normal !important;}
+
+.de_checkbox_side {padding:0 !important; margin:0 !important; border:none !important;}
+.de_checkbox_side .cmb-th {font-size:14px; width:100% !important; color:#333 !important;}
+.de_checkbox_side .cmb-td {width:100% !important;}
+.de_checkbox_side .cmb-th {padding-bottom:0 !important}
+.de_checkbox_side .cmb-th label::after {display:none !important;}
+.de_checkbox_side .cmb-td label span {font-size:12px; color:grey; font-style:normal !important;}
+
+.de_fifty {margin-left:1.5% !important; margin-right:1.5% !important; width:47% !important; float:left !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_twentyfive {margin-left:1.5% !important; margin-right:1.5% !important; width:22% !important; float:left !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_seventyfive {margin-left:1.5% !important; margin-right:1.5% !important; width:72% !important; float:left !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_hundred {clear:both; margin-left:1.5% !important; margin-right:1.5% !important; width:97% !important; margin-bottom:14px !important; margin-top:14px !important;}
+
+.de_hundred_side {clear:both; margin-left:1.5% !important; margin-right:1.5% !important; width:97% !important; margin-bottom:20px !important; margin-top:24px !important;}
+
+@media only screen and (max-width: 1100px) {
+	.de_fifty, .de_twentyfive, .de_seventyfive, .de_hundred {
+	 clear:both; margin-left:1.5% !important; margin-right:1.5% !important; width:97% !important; margin-bottom:14px !important; margin-top:14px !important;
+	}
+}
