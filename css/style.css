@@ -1,20 +1,53 @@
-.ptp-5-plans .ptp-plan {width:19.5%; float:left;}
-.ptp-5-plans .ptp-plan-0 {margin-right:0.62%;}
-.ptp-5-plans .ptp-plan-2 {margin-left:0.62%;}
-.ptp-5-plans .ptp-plan-3 {margin-left:0.62%;}
-.ptp-5-plans .ptp-plan-4 {margin-left:0.62%;}
+.ptp-5-plans .ptp-plan {
+	float: left;
+	width: 19.5%;
+}
 
-.ptp-4-plans .ptp-plan {width:24.5%; float:left;}
-.ptp-4-plans .ptp-plan-0 {margin-right:0.66%;}
-.ptp-4-plans .ptp-plan-2 {margin-left:0.66%;}
-.ptp-4-plans .ptp-plan-3 {margin-left:0.66%;}
+.ptp-5-plans .ptp-plan-0 {
+	margin-right: 0.62%;
+}
 
-.ptp-3-plans .ptp-plan {width:32%; float:left;}
-.ptp-3-plans .ptp-plan-0 {margin-right:1.9%;}
-.ptp-3-plans .ptp-plan-2 {margin-left:1.9%;}
+.ptp-5-plans .ptp-plan-2,
+.ptp-5-plans .ptp-plan-3,
+.ptp-5-plans .ptp-plan-4 {
+	margin-left: 0.62%;
+}
 
-.ptp-2-plans .ptp-plan {width:49%; float:left;}
-.ptp-2-plans .ptp-plan-0 {margin-right:2%;}
+.ptp-4-plans .ptp-plan {
+	float: left;
+	width: 24.5%;
+}
+
+.ptp-4-plans .ptp-plan-0 {
+	margin-right: 0.66%;
+}
+
+.ptp-4-plans .ptp-plan-2,
+.ptp-4-plans .ptp-plan-3 {
+	margin-left: 0.66%;
+}
+
+.ptp-3-plans .ptp-plan {
+	float: left;
+	width: 32%;
+}
+
+.ptp-3-plans .ptp-plan-0 {
+	margin-right: 1.9%;
+}
+
+.ptp-3-plans .ptp-plan-2 {
+	margin-left: 1.9%;
+}
+
+.ptp-2-plans .ptp-plan {
+	float: left;
+	width: 49%;
+}
+
+.ptp-2-plans .ptp-plan-0 {
+	margin-right:2%;
+}
 
 .ptp-plan .ptp-title img {
 	margin-right:10px;
