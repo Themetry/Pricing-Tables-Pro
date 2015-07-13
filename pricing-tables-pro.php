@@ -357,8 +357,6 @@ function mc_ptp_shortcode($atts) {
 		// Closing ptp container
 		$output2 .= '</div>';
 
-		$output2 .= '<div style="clear:both;"></div>';
-
 	endforeach; wp_reset_postdata();
 	return $output2;
 

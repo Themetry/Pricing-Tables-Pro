@@ -197,6 +197,16 @@
 .entry-content .ptp-plan a {border-bottom:none;}
 .ptp-plan a {border-bottom:none;}
 
+.ptp-plans:before,
+.ptp-plans:after {
+	content: "";
+	display: table;
+}
+
+.ptp-plans:after {
+	clear: both;
+}
+
 /* TABLETS */
 @media only screen and (min-width: 40em) and (max-width: 64.063em) {
 	.ptp-plan .ptp-head .ptp-price {font-size:64px; margin-top:20px;}
