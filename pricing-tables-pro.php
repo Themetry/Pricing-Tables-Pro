@@ -106,10 +106,33 @@ function mc_ptp_register_plan_group_metabox() {
 			));
 
 			$main_group->add_group_field( $ptp_plan_group, array(
+				'name' => 'Before Price',
+	       	    'id'   => $prefix . 'before_price',
+				'type' => 'text',
+				'row_classes' => 'de_twentyfive de_text de_input',
+				'attributes'  => array(
+					'placeholder' => 'e.g. $',
+				),
+			));
+
+			$main_group->add_group_field( $ptp_plan_group, array(
 				'name' => 'Price',
 	       	    'id'   => $prefix . 'price',
 				'type' => 'text',
-				'row_classes' => 'de_fifty de_text de_input',
+				'row_classes' => 'de_twentyfive de_text de_input',
+				'attributes'  => array(
+					'placeholder' => '99',
+				),
+			));
+
+			$main_group->add_group_field( $ptp_plan_group, array(
+				'name' => 'After Price',
+	       	    'id'   => $prefix . 'after_price',
+				'type' => 'text',
+				'row_classes' => 'de_twentyfive de_text de_input',
+				'attributes'  => array(
+					'placeholder' => 'e.g. .00',
+				),
 			));
 
 			$main_group->add_group_field( $ptp_plan_group, array(
@@ -117,7 +140,7 @@ function mc_ptp_register_plan_group_metabox() {
 				'id'   => $prefix . 'recurrence',
 				'type' => 'text',
 				'sanitization_cb' => false,
-				'row_classes' => 'de_fifty de_text de_input',
+				'row_classes' => 'de_twentyfive de_text de_input',
 				'attributes'  => array(
 					'placeholder' => 'e.g. Monthly',
 				),
@@ -247,8 +270,22 @@ function mc_ptp_shortcode($atts) {
 			if ( ! empty( $plans['_mc_ptp_price'] ) ) {
 
 				$output2 .= '<div class="ptp-price ptp-price-' . $key . '">';
+				
+					if ( ! empty( $plans['_mc_ptp_before_price'] ) ) {
+						$output2 .= '<span class="ptp-before-price ptp-before-price-' . $key . '">';
+						$output2 .= $plans['_mc_ptp_before_price'];
+						$output2 .= '</span>';				
+					}
 
+				$output2 .= '<span class="ptp-price-inner ptp-price-inner-' . $key . '">';
 				$output2 .= $plans['_mc_ptp_price'];
+				$output2 .= '</span>';
+				
+					if ( ! empty( $plans['_mc_ptp_after_price'] ) ) {
+						$output2 .= '<span class="ptp-before-price ptp-after-price-' . $key . '">';
+						$output2 .= $plans['_mc_ptp_after_price'];
+						$output2 .= '</span>';				
+					}
 
 				$output2 .= '</div>';
 			}
