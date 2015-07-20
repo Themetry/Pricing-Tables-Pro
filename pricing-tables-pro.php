@@ -282,7 +282,7 @@ function mc_ptp_shortcode($atts) {
 				$output2 .= '</span>';
 				
 					if ( ! empty( $plans['_mc_ptp_after_price'] ) ) {
-						$output2 .= '<span class="ptp-before-price ptp-after-price-' . $key . '">';
+						$output2 .= '<span class="ptp-after-price ptp-after-price-' . $key . '">';
 						$output2 .= $plans['_mc_ptp_after_price'];
 						$output2 .= '</span>';				
 					}
